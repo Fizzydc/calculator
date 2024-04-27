@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -11,7 +11,7 @@ body {
 
 .calculator {
     width: 300px;
-    background-color: #fff;
+    background-color: #8086df;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -24,7 +24,7 @@ body {
     padding: 10px;
     font-size: 24px;
     border: none;
-    background-color: #f9f9f9;
+    background-color: #3c15e6;
     border-radius: 5px;
 }
 
@@ -40,7 +40,7 @@ button {
 }
 
 button:hover {
-    background-color: #d3d3d3;
+    background-color: #0f22d4;
 }
 
 button.operator {
