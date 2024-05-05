@@ -15,7 +15,7 @@ function calculate() {
   }
 }
 
-function clearDisplay() {
-  currentInput = "";
-  display.value = "";
-}
+//function clearDisplay() {
+ // currentInput = "";
+  //display.value = "";
+}//
