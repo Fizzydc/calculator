@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     display: grid;
@@ -10,7 +10,7 @@ body {
 }
 
 .calculator {
-    width: 300px;
+    width: 250px;
     background-color: grey;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -21,7 +21,7 @@ body {
 
 #display {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     padding: auto;
     font-size: 25px;
     border: none;
@@ -30,9 +30,10 @@ body {
 }
 
 button {
-    width: 50px;
+    width: 60px;
     height: 50px;
-    margin: 10px;
+    padding: auto;
+    margin: auto;
     font-size: 2rem;
     font-weight: 800;
     border: none;
